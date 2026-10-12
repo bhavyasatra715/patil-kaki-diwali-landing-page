@@ -20,7 +20,7 @@ After GitHub Pages is enabled, the preview is available at:
 
 Individual prices and pack sizes in this prototype were checked on [patilkaki.com](https://patilkaki.com/) on 12 October 2026. They can change. The combo totals are sums of the displayed individual prices; they are not published bundle prices or discounts.
 
-The locally bundled food image is illustrative concept art, not official Patil Kaki product photography. Replace/confirm all photography, copy, prices, stock status, fulfilment details, and gifting links with the business before using this as a live storefront.
+The locally bundled food images are illustrative concept art, not official Patil Kaki product photography. Replace/confirm all photography, copy, prices, stock status, fulfilment details, and gifting links with the business before using this as a live storefront.
 
 ## Run locally
 
