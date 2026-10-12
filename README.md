@@ -10,7 +10,7 @@ After GitHub Pages is enabled, the preview is available at:
 
 ## Interactions
 
-- Category cards filter the bestseller products.
+- Category cards link to the live Patil Kaki snack and ladoo collections.
 - Search filters products by name.
 - Add buttons and the two faral pairings update a demo cart.
 - Product links open the current Patil Kaki catalog pages.

@@ -9,6 +9,7 @@
 /* Locally bundled campaign art keeps the public preview independent of the store image CDN. */
 .hero-photo-back,.hero-photo-side,.hero-photo-main{display:none!important}
 .hero-visual{background:url("assets/diwali-faral-hero.png") center right/cover no-repeat;border-radius:18px}
+.hero-visual .hero-glow{display:none!important}
 .combo-art-one img{object-position:74% 45%}
 .combo-art-two>img:first-child{object-position:93% 55%}
 .product-card:nth-child(1) .product-image img{object-position:82% 22%}
