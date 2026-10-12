@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff4e4">
+  <meta name="description" content="A festive Diwali storefront concept for Patil Kaki — traditional recipes, festive favourites, a little taste of home.">
+  <title>Diwali Faral — Patil Kaki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">
+    <span>✦ Freshly made in small batches</span><i></i>
+    <span>Traditional recipes, made for sharing</span><i></i>
+    <span>A little taste of home this Diwali</span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Patil Kaki home">
+      <span class="brand-name">PATIL KAKI</span>
+      <span class="brand-tag">TRADITIONAL RECIPES. TIMELESS TASTE.</span>
+    </a>
+    <button class="menu-toggle icon-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="#bestsellers">Shop all</a>
+      <a href="#bestsellers" data-nav-filter="snacks">Snacks</a>
+      <a href="#bestsellers" data-nav-filter="sweets">Sweets</a>
+      <a href="#combos">Faral</a>
+      <a href="#gifting">Gifting</a>
+      <a href="https://patilkaki.com/about" target="_blank" rel="noreferrer">About us</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button search-toggle" type="button" aria-label="Show product search" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.5 4.5"></path></svg>
+      </button>
+      <a class="icon-button account-link" href="https://patilkaki.com/account" target="_blank" rel="noreferrer" aria-label="Account">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.6"></circle><path d="M4.8 20c.5-3.6 3.3-5.5 7.2-5.5s6.7 1.9 7.2 5.5"></path></svg>
+      </a>
+      <button class="cart-trigger" type="button" aria-label="Open demo cart"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.4L21 8H6"></path><circle cx="9.5" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg><span>Cart</span><b class="cart-count" aria-live="polite">0</b></button>
+    </div>
+  </header>
+
+  <form class="search-panel" role="search" hidden>
+    <label class="sr-only" for="product-search">Search products</label>
+    <input id="product-search" type="search" placeholder="Search festive favourites…" autocomplete="off">
+    <button type="button" class="search-close" aria-label="Close search">×</button>
+  </form>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>A FESTIVAL OF TRADITIONS</p>
+        <h1 id="hero-title">Bring Home<br>the Taste of <em>Diwali.</em></h1>
+        <p class="hero-subtitle">Traditional recipes. Festive favourites.<br>A little taste of home.</p>
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#bestsellers">Shop Diwali favourites <span aria-hidden="true">→</span></a>
+          <a class="button button-secondary" href="#gifting">Explore gifting <span aria-hidden="true">✦</span></a>
+        </div>
+        <p class="hero-note">Small-batch faral, made with care.</p>
+      </div>
+      <div class="hero-visual" aria-label="A festive spread of traditional faral">
+        <div class="hero-glow"></div>
+        <span class="sparkle sparkle-one">✦</span><span class="sparkle sparkle-two">✳</span><span class="sparkle sparkle-three">✦</span>
+        <div class="hero-photo hero-photo-back"><img src="https://patilkaki.com/cdn/shop/files/RavaLadooSI4-1500x1500.jpg?v=1741166349&width=900" alt="Rava ladoo by Patil Kaki"></div>
+        <div class="hero-photo hero-photo-main"><img src="https://patilkaki.com/cdn/shop/files/ChakliSI-1500x1500.jpg?v=1741166632&width=1000" alt="Golden Bhajni Chakli by Patil Kaki"></div>
+        <div class="hero-photo hero-photo-side"><img src="https://patilkaki.com/cdn/shop/files/BesanLadooSI-1500x1500.jpg?v=1741165896&width=900" alt="Besan ladoo by Patil Kaki"></div>
+        <div class="diya" aria-hidden="true"><span>✦</span><i></i><b></b></div>
+        <div class="hero-caption"><span>FROM OUR KITCHEN</span><strong>Made to be shared</strong></div>
+      </div>
+      <div class="hero-flower flower-left" aria-hidden="true">✿</div>
+      <div class="hero-flower flower-right" aria-hidden="true">✿</div>
+    </section>
+
+    <section class="category-row" aria-label="Shop by category">
+      <button class="category-card category-snacks" type="button" data-category-filter="snacks"><span class="category-emoji" aria-hidden="true">◉</span><span>Snacks <b>→</b></span></button>
+      <button class="category-card category-sweets" type="button" data-category-filter="sweets"><span class="category-emoji" aria-hidden="true">❋</span><span>Sweets &amp; Ladoos <b>→</b></span></button>
+      <button class="category-card category-faral" type="button" data-category-filter="faral"><span class="category-emoji" aria-hidden="true">♨</span><span>Faral <b>→</b></span></button>
+      <a class="category-card category-gifting" href="#gifting"><span class="category-emoji" aria-hidden="true">♔</span><span>Gifting <b>→</b></span></a>
+    </section>
+
+    <section class="content-section combo-section" id="combos" aria-labelledby="combos-title">
+      <div class="section-heading"><span></span><div><p class="eyebrow">MADE FOR YOUR FARAL PLATE</p><h2 id="combos-title">Our Diwali Combos</h2></div><span></span></div>
+      <p class="section-intro">A few favourites, ready to bring everyone to the table.</p>
+      <div class="combo-grid">
+        <article class="combo-card">
+          <div class="combo-art combo-art-one"><img src="https://patilkaki.com/cdn/shop/files/ChakliSI-1500x1500.jpg?v=1741166632&width=700" alt="Bhajni Chakli, part of the Mini Faral pairing" loading="lazy"><span class="combo-seal">A LITTLE<br>OF EVERYTHING</span></div>
+          <div class="combo-copy"><span class="pill">PERFECT FOR SHARING</span><h3>The Mini Faral</h3><p>Bhajni Chakli · Shankarpali · Chivda</p><strong class="combo-price">₹527 <small>est. item total*</small></strong><button class="button button-cart" type="button" data-set="mini">Add sample set <span aria-hidden="true">→</span></button></div>
+        </article>
+        <article class="combo-card combo-card-featured">
+          <div class="combo-art combo-art-two"><img src="https://patilkaki.com/cdn/shop/files/BesanLadooSI-1500x1500.jpg?v=1741165896&width=700" alt="Besan ladoo, part of the Classic Faral pairing" loading="lazy"><img class="combo-art-small" src="https://patilkaki.com/cdn/shop/files/RavaLadooSI4-1500x1500.jpg?v=1741166349&width=500" alt="Rava ladoo" loading="lazy"><span class="combo-seal">OUR<br>FESTIVE PICK</span></div>
+          <div class="combo-copy"><span class="pill pill-gold">THE FULL FARAL SPREAD</span><h3>The Classic Faral</h3><p>Chakli · Chivda · Shankarpali · Besan &amp; Rava Ladoo</p><strong class="combo-price">₹1,255 <small>est. item total*</small></strong><button class="button button-cart" type="button" data-set="classic">Add sample set <span aria-hidden="true">→</span></button></div>
+        </article>
+      </div>
+      <p class="price-note">*Estimated total from the individual product prices shown on patilkaki.com, checked 12 Oct 2026. These are prototype pairings, not advertised bundles or discounted combo prices.</p>
+    </section>
+
+    <section class="content-section bestsellers-section" id="bestsellers" aria-labelledby="bestsellers-title">
+      <div class="section-heading"><span></span><div><p class="eyebrow">A LITTLE SOMETHING FOR EVERYONE</p><h2 id="bestsellers-title">Our Bestsellers</h2></div><span></span></div>
+      <div class="filter-status" aria-live="polite"></div>
+      <div class="product-grid">
+        <article class="product-card" data-product data-category="snacks" data-name="bhajni chakli chakli savoury">
+          <a class="product-image" href="https://patilkaki.com/products/bhajni-chakli" target="_blank" rel="noreferrer"><img src="https://patilkaki.com/cdn/shop/files/ChakliSI-1500x1500.jpg?v=1741166632&width=800" alt="Bhajni Chakli" loading="lazy"><span class="product-badge">A FAVOURITE</span></a>
+          <div class="product-info"><a class="product-name" href="https://patilkaki.com/products/bhajni-chakli" target="_blank" rel="noreferrer">Bhajni Chakli</a><span class="product-weight">230 g</span><div class="product-bottom"><strong>₹169</strong><button type="button" class="add-button" data-add="chakli" aria-label="Add Bhajni Chakli to demo cart">+</button></div></div>
+        </article>
+        <article class="product-card" data-product data-category="snacks" data-name="shankarpali sweet faral">
+          <a class="product-image" href="https://patilkaki.com/products/sweet-shankarpali" target="_blank" rel="noreferrer"><img src="https://patilkaki.com/cdn/shop/files/Ekta-Images-Photoshoot-1000x-1000x.png?v=1750061737&width=800" alt="Sweet Shankarpali" loading="lazy"><span class="product-badge">DIWALI CLASSIC</span></a>
+          <div class="product-info"><a class="product-name" href="https://patilkaki.com/products/sweet-shankarpali" target="_blank" rel="noreferrer">Shankarpali</a><span class="product-weight">300 g</span><div class="product-bottom"><strong>₹179</strong><button type="button" class="add-button" data-add="shankarpali" aria-label="Add Shankarpali to demo cart">+</button></div></div>
+        </article>
+        <article class="product-card" data-product data-category="sweets" data-name="besan ladoo sweet ladoo">
+          <a class="product-image" href="https://patilkaki.com/products/besan-ladoo" target="_blank" rel="noreferrer"><img src="https://patilkaki.com/cdn/shop/files/BesanLadooSI-1500x1500.jpg?v=1741165896&width=800" alt="Besan Ladoo made with pure ghee" loading="lazy"><span class="product-badge">PURE GHEE</span></a>
+          <div class="product-info"><a class="product-name" href="https://patilkaki.com/products/besan-ladoo" target="_blank" rel="noreferrer">Besan Ladoo</a><span class="product-weight">350 g</span><div class="product-bottom"><strong>₹389</strong><button type="button" class="add-button" data-add="besan" aria-label="Add Besan Ladoo to demo cart">+</button></div></div>
+        </article>
+        <article class="product-card" data-product data-category="sweets" data-name="rava ladoo sweet ladoo">
+          <a class="product-image" href="https://patilkaki.com/products/rava-ladoo" target="_blank" rel="noreferrer"><img src="https://patilkaki.com/cdn/shop/files/RavaLadooSI4-1500x1500.jpg?v=1741166349&width=800" alt="Rava Ladoo" loading="lazy"><span class="product-badge">PURE GHEE</span></a>
+          <div class="product-info"><a class="product-name" href="https://patilkaki.com/products/rava-ladoo" target="_blank" rel="noreferrer">Rava Ladoo</a><span class="product-weight">350 g</span><div class="product-bottom"><strong>₹339</strong><button type="button" class="add-button" data-add="rava" aria-label="Add Rava Ladoo to demo cart">+</button></div></div>
+        </article>
+        <article class="product-card" data-product data-category="snacks" data-name="chivda poha savoury faral">
+          <a class="product-image chivda-image" href="https://patilkaki.com/products/chivda" target="_blank" rel="noreferrer"><span class="chivda-bowl" aria-hidden="true"><span>◌</span><i>● ●</i><b>✿</b></span><span class="product-badge">CHAI-TIME FAVOURITE</span></a>
+          <div class="product-info"><a class="product-name" href="https://patilkaki.com/products/chivda" target="_blank" rel="noreferrer">Poha Chivda</a><span class="product-weight">300 g</span><div class="product-bottom"><strong>₹179</strong><button type="button" class="add-button" data-add="chivda" aria-label="Add Poha Chivda to demo cart">+</button></div></div>
+        </article>
+      </div>
+      <p class="catalog-note">Prototype cart only — prices are samples from the live Patil Kaki catalogue and may change. Product buttons open the current store listing.</p>
+    </section>
+
+    <section class="gifting-banner" id="gifting" aria-labelledby="gifting-title">
+      <div class="gifting-copy"><p class="eyebrow">GIVE A LITTLE TASTE OF HOME</p><h2 id="gifting-title">Make Diwali Special<br>with Patil Kaki</h2><p>Thoughtful hampers. Authentic flavours.</p><a class="button button-dark" href="https://patilkaki.com/products" target="_blank" rel="noreferrer">Explore gifting <span aria-hidden="true">→</span></a></div>
+      <div class="gift-art" aria-hidden="true"><div class="gift-box gift-box-blue"><span>✦</span></div><div class="gift-box gift-box-gold"><span>✿</span></div><div class="gift-ladoo">● ● ●</div><div class="gift-diya">⌒</div></div>
+      <span class="banner-flower" aria-hidden="true">✿</span>
+    </section>
+
+    <section class="trust-strip" aria-label="Patil Kaki values"><span>✦ Small batches</span><span>✦ Traditional recipes</span><span>✦ Made with care</span><span>✦ From our kitchen to yours</span></section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top"><span class="brand-name">PATIL KAKI</span><span class="brand-tag">TRADITIONAL RECIPES. TIMELESS TASTE.</span></a>
+    <p>A little taste of home, for every celebration.</p>
+    <a href="https://patilkaki.com" target="_blank" rel="noreferrer">Visit patilkaki.com ↗</a>
+    <small>Independent design prototype. Not an official Patil Kaki storefront.</small>
+  </footer>
+
+  <div class="cart-backdrop" hidden></div>
+  <aside class="cart-drawer" aria-label="Prototype cart" aria-modal="true" role="dialog" hidden>
+    <div class="cart-head"><div><p class="eyebrow">JUST A PREVIEW</p><h2>Your Faral Basket</h2></div><button class="cart-close icon-button" type="button" aria-label="Close cart">×</button></div>
+    <p class="cart-disclaimer">Demo basket only — nothing is sent to Patil Kaki or checked out.</p>
+    <div class="cart-items"></div>
+    <div class="cart-empty"><span aria-hidden="true">✿</span><p>Your basket is ready for a little faral.</p><button class="text-button continue-shopping" type="button">Keep exploring →</button></div>
+    <div class="cart-total" hidden><span>Sample total</span><strong>₹0</strong></div>
+    <a class="button button-primary visit-store" href="https://patilkaki.com" target="_blank" rel="noreferrer">Visit the real store <span aria-hidden="true">↗</span></a>
+  </aside>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
