@@ -9,6 +9,7 @@
 /* Locally bundled campaign art keeps the public preview independent of the store image CDN. */
 .hero-photo-back,.hero-photo-side,.hero-photo-main{display:none!important}
 .hero-visual{background:transparent;border-radius:18px;overflow:hidden}
+.hero h1{font-size:clamp(42px,4.5vw,60px)}
 .hero-food-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:74% center;border-radius:18px;box-shadow:0 18px 42px #753b1821}
 .hero-visual .hero-glow{display:none!important}
 .category-icon{width:34px;height:34px;fill:none;stroke:#8f370b;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
