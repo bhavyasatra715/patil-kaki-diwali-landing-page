@@ -29,3 +29,14 @@
 @media(max-width:700px){.hero-visual{height:230px}.hero-food-photo{border-radius:13px;object-position:72% center}.category-icon{width:30px;height:30px}.gift-art{width:66%;height:103px;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}.gift-art img{height:84px;border-radius:8px;border-width:2px}.gift-art img:nth-child(2){height:96px}}
 @media(max-width:370px){.gift-art{width:64%;gap:4px}.gift-art img{height:77px}.gift-art img:nth-child(2){height:86px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+/* Photo-led category tiles and larger, easier-to-tap campaign controls. */
+.hero-food-photo{object-position:center center}
+.button{min-height:50px;padding-left:24px;padding-right:24px;font-size:14px;border-radius:9px}
+.hero-buttons .button{min-height:56px;padding-left:27px;padding-right:27px}
+.button-cart{min-height:44px}
+.add-button{width:36px;height:36px;font-size:23px}
+.category-card{height:112px;gap:9px}
+.category-photo{width:64px;height:62px;object-fit:cover;border-radius:9px;box-shadow:0 3px 9px #63301024}
+.category-gifting .category-photo{object-position:center 50%}
+@media(max-width:700px){.button{min-height:46px;padding:0 18px;font-size:13px}.hero-buttons .button{min-height:50px}.button-cart{min-height:36px}.category-card{height:91px;gap:6px;font-size:9px;line-height:1.1}.category-photo{width:45px;height:44px;border-radius:7px}.add-button{width:32px;height:32px}}
+@media(max-width:370px){.category-card{height:88px;font-size:8px}.category-photo{width:41px;height:40px}}
