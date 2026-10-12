@@ -42,3 +42,12 @@
 @media(max-width:1000px) and (min-width:701px){.hero-visual{height:auto;aspect-ratio:3/2}}
 @media(max-width:700px){.button{min-height:46px;padding:0 18px;font-size:13px}.hero-buttons .button{min-height:50px}.button-cart{min-height:36px}.hero-food-photo{object-fit:contain}.category-card{height:106px;font-size:9px;line-height:1.1}.category-card span{font-size:10px;padding:15px 4px 8px}.add-button{width:32px;height:32px}}
 @media(max-width:370px){.category-card{height:98px;font-size:8px}.category-card span{font-size:9px}}
+/* Single panoramic gift scene echoes the original Diwali gifting banner. */
+.gifting-banner{min-height:238px;padding:30px 6.5%;background:linear-gradient(95deg,#ffc33a 0%,#ffcb45 46%,#f7ae22 100%)}
+.gifting-copy{max-width:48%;z-index:3}
+.gifting-copy h2{font-size:clamp(25px,2.2vw,32px)}
+.button-dark{min-height:44px;padding-left:22px;padding-right:22px}
+.gift-art{position:absolute;z-index:1;right:0;top:0;bottom:0;width:64%;height:100%;display:block;overflow:hidden}
+.gift-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 50%;border:0;border-radius:0;box-shadow:none;mask-image:linear-gradient(90deg,transparent 0%,#000 10%)}
+@media(max-width:700px){.gifting-banner{min-height:355px;padding:24px 21px 205px}.gifting-copy{max-width:100%}.gifting-copy h2{font-size:29px}.gift-art{width:100%;height:190px;top:auto;right:0;bottom:0}.gift-art img{mask-image:none;object-position:center 50%}}
+@media(max-width:370px){.gifting-banner{min-height:345px;padding-bottom:192px}.gift-art{height:180px}}
